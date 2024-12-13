@@ -3,23 +3,36 @@
 The datasets contain the measurement data of battery testing. 
 
 Some of the manufacturer information that is needed for performing analysis :
+
 Cell capacity : 2.3 Ah
+
 Operational Temperature : 25°C
+
 C-rate = Current(A) / Cell Capacity (Ah)
 
 Dataset Variables:
+
 Data_Point : S.No	
-Test_Time(s): Time step (1s) 	
+
+Test_Time(s): Time step (1s) 
+
 Current(A): Charging / Discharging Current ( + Ve charge, -Ve :discharge)	
+
 Capacity(Ah): CurrentIntegral (Current *time(hrs) (ah)	
-Voltage(V) : Cell/Battery Voltage (Operational range: 2.9V - 4.2V)	
+
+Voltage(V) : Cell/Battery Voltage (Operational range: 2.9V - 4.2V)
+
 Energy(Wh): Energy (Voltage * Capacity)	
+
 Temperature(℃)	: --
+
 Date_Time	: Timestamp
+
 Cycle_Index : Cycle Count ( 1 charge + 1 discharge = 1 cycle) 
 
 
 Tasks To Do: 
+
 1. Import the 3 datasets and join them as one file
 2. Analyse each variable such as voltage, time, current, capacity, energy, cycle_Index
 3. Perform the exploratory data analysis (EDA : Univariate, Bivariate etc) and clean the data.
