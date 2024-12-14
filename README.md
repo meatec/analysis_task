@@ -32,8 +32,9 @@ Cycle_Index : Cycle Count ( 1 charge + 1 discharge = 1 cycle)
 
 
 Tasks To Do: 
+Create a jupyter notebook.
 
-1. Import the 3 datasets and join them as one file
+1. Import the 2 datasets and join them as one file.
 2. Analyse each variable such as voltage, time, current, capacity, energy, cycle_Index
 3. Perform the exploratory data analysis (EDA : Univariate, Bivariate etc) and clean the data.
 4. Extract only charging phase related data. (Charge when current > 0)
@@ -43,4 +44,6 @@ Tasks To Do:
 8. Explain the influence of c-rate on the charge_capacity
 
 9. Use ML methods like poly. regression to extrapolate the total Charge capacity w.r.t cycle count.for every c-rate.
-10. 
+10. You are free to select any methodology you feel suitable to perform data analysis and visualizations.
+11. Write your thought process behind every step you followed briefly.
+12. Create a branch and Commit your changes to that repository.
